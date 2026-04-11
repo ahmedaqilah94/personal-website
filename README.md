@@ -71,10 +71,10 @@ Here are some of the projects featured:
 
 Feel free to reach out or connect with me:
 
-- Facebook: #  
-- LinkedIn: #  
-- Twitter: #  
-- GitHub: #  
+-  [Facebook](https://www.facebook.com/share/1axiBoCYPU/)  
+-  [LinkedIn](https://www.linkedin.com/in/ahmed-aqilah-9a2b06378/)  
+-  [Twitter](https://x.com/aqilah_ahm23084)  
+-  [GitHub](https://github.com/ahmedaqilah94)  
 
 ---
 
