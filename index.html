@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Ahmed Aqilah</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" loop autoplay muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input
+          type="checkbox"
+          name=""
+          id="menu"
+          class="burger-menu__checkbox"
+        />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I’m A Passionate Software Engineering Learner.
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Ahmed Aqilah</span>, a Nursing
+            Technician with a strong medical background. Currently, I’m learning
+            software engineering at
+            <a
+              href="https://almdrasa.com/"
+              class="bio__almdrasa"
+              target="_blank"
+              >Almdrasa.com</a
+            >, where I’m building my programming skills. who publish content on
+            <a
+              href="https://www.facebook.com/share/1axiBoCYPU/"
+              class="bio__facebook"
+              target="_blank"
+              >Facebook</a
+            >,
+            <a
+              href="https://x.com/aqilah_ahm23084"
+              class="bio__twitter"
+              target="_blank"
+              >Twitter</a
+            >,
+            <a
+              href="https://www.linkedin.com/in/ahmed-aqilah-9a2b06378/"
+              class="bio__linkedin"
+              target="_blank"
+              >LinkedIn</a
+            >
+            and <a href="#" class="bio__youtube">Youtube</a>.
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="./Ahmed_Aqilah_CV.pdf" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            src="imgs/Ahmed-aqilah.png"
+            alt="image of Ahmed Aqilah"
+            class="bio__pic"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">SKILLS</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">Python</h2>
+            <span class="skills__duration">3 months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Java</h2>
+            <span class="skills__duration">3 months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__duration">2 months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__duration">2 months</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">JavaScript</h2>
+            <span class="skills__duration"></span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__duration"></span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video class="media__video" poster="./imgs/thumbnail.jpg" controls>
+          <source src="./video.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">MY FEATURED <br />PROJECTS</h2>
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="./imgs/Expense-tracker.png"
+            alt="Expense Tracker"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Expense Tracker <br />Extension</h3>
+            <p class="projects__description">
+              A simple app that helps users record income and expenses, track
+              spending habits, and manage their finances more effectively
+              through a clean and easy-to-use interface.
+            </p>
+            <a href="#" class="projects__link" target="_blank">Chrome Link</a>
+            <span>-</span>
+            <a href="#" class="projects__link" target="_blank">Edge Link</a>
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Tic Tac Toe</h3>
+            <p class="projects__description">
+              Tic Tac Toe is a simple two-player game where each player takes
+              turns marking X or O on a grid. The goal is to align three symbols
+              in a row, column, or diagonal before the opponent. It’s a classic
+              game that combines fun with basic strategic thinking.
+            </p>
+            <a href="#" class="projects__link" target="_blank">Chrome Link</a>
+            <span>-</span>
+            <a href="#" class="projects__link" target="_blank">Edge Link</a>
+          </div>
+          <img class="projects__img" src="./imgs/X_O.jpg" alt="Tic Tac Toe" />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+        <h2 class="h2-heading">What My <br />Clients Says</h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              "Ahmed is a talented developer who delivered our project on time
+              and within budget. His attention to detail and problem-solving
+              skills are impressive."
+            </p>
+            <p class="clients__opinion">
+              "Working with Ahmed was a great experience. He communicated well
+              and was always willing to help us achieve our goals."
+            </p>
+            <p class="clients__opinion">
+              "Ahmed's expertise in web development is unmatched. He helped us
+              create a stunning website that has exceeded our expectations."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a href="mailto:example@gmail.com" class="contact__email"
+            >example@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/ahmed.aqila.419315"
+              class="contact__social"
+              ><img
+                src="./brand/facebook.svg"
+                alt="icon of Facebook"
+                target="_blank"
+            /></a>
+            <a href="https://x.com/aqilah_ahm23084" class="contact__social"
+              ><img
+                src="./brand/twitter.svg"
+                alt="icon of Twitter"
+                target="_blank"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img src="./brand/youtube.svg" alt="icon of Youtube"
+            /></a>
+            <a href="https://github.com/ahmedaqilah94" class="contact__social"
+              ><img
+                src="./brand/github.svg"
+                alt="icon of GitHub"
+                target="_blank"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img src="./brand/instagram.svg" alt="icon of Instagram"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/ahmed-aqilah-9a2b06378/"
+              class="contact__social"
+              target="_blank"
+              ><img src="./brand/linkedin.svg" alt="icon of LinkedIn"
+            /></a>
+          </div>
+        </div>
+
+        <div class="contact__formContent">
+          <h2 class="h2-heading">Let’s Work <br />Together!</h2>
+
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                required
+                name="fullname"
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+                name="telephone"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+              name="description"
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2026 by Ahmed Aqilah</footer>
+    </div>
+  </body>
+</html>
